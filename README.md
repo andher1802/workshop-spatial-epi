@@ -6,8 +6,7 @@ The goal of this workshop is to exemplify the role of ArcGIS in analysis of spat
     + This is a class about the use of ArcGIS in health related problems
     + Subtitled videos (**No audio**) with detailed explanation about the topics.
 
-* Lab sessions tutorials and materials can be found on 
-https://maurosc3ner.github.io/pangeaworkshop2019/.
+* Lab sessions tutorials and materials can be found on https://andher1802.github.io/workshop-spatial-epi/.
 
 # Instructor:
 
