@@ -1,13 +1,12 @@
 <!DOCTYPE html>
-<html >
-
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
 <head>
 
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <title>Chapter 1 ArcGIS Basics | Infectious Diseases Institute GIS Workshop</title>
-  <meta name="description" content="Chapter 1 ArcGIS Basics | Infectious Diseases Institute GIS Workshop">
-  <meta name="generator" content="bookdown  and GitBook 2.6.7">
+  <meta name="description" content="Chapter 1 ArcGIS Basics | Infectious Diseases Institute GIS Workshop" />
+  <meta name="generator" content="bookdown 0.16 and GitBook 2.6.7" />
 
   <meta property="og:title" content="Chapter 1 ArcGIS Basics | Infectious Diseases Institute GIS Workshop" />
   <meta property="og:type" content="book" />
@@ -25,13 +24,13 @@
 
 
 
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="apple-mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   
   
-<link rel="prev" href="index.html">
-<link rel="next" href="week2.html">
+<link rel="prev" href="index.html"/>
+<link rel="next" href="week2.html"/>
 <script src="libs/jquery-2.2.3/jquery.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
@@ -39,6 +38,9 @@
 <link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
 
 
 
@@ -79,6 +81,12 @@
 <li class="chapter" data-level="2.1" data-path="week2.html"><a href="week2.html#zooming-panning"><i class="fa fa-check"></i><b>2.1</b> Zooming &amp; Panning</a></li>
 <li class="chapter" data-level="2.2" data-path="week2.html"><a href="week2.html#attribute-tables"><i class="fa fa-check"></i><b>2.2</b> Attribute tables</a></li>
 <li class="chapter" data-level="2.3" data-path="week2.html"><a href="week2.html#chapter-material-1"><i class="fa fa-check"></i><b>2.3</b> Chapter Material</a></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path="week3.html"><a href="week3.html"><i class="fa fa-check"></i><b>3</b> Designing maps for a health study</a><ul>
+<li class="chapter" data-level="3.1" data-path="week3.html"><a href="week3.html#mapping"><i class="fa fa-check"></i><b>3.1</b> Mapping</a></li>
+<li class="chapter" data-level="3.2" data-path="week3.html"><a href="week3.html#layouts"><i class="fa fa-check"></i><b>3.2</b> Layouts</a></li>
+<li class="chapter" data-level="3.3" data-path="week3.html"><a href="week3.html#data-driven-pages"><i class="fa fa-check"></i><b>3.3</b> Data driven pages</a></li>
+<li class="chapter" data-level="3.4" data-path="week3.html"><a href="week3.html#chapter-material-2"><i class="fa fa-check"></i><b>3.4</b> Chapter Material</a></li>
 </ul></li>
 <li class="divider"></li>
 <li><a href="mailto:correaem@mail.uc.edu" target="blank">contact</a></li>
@@ -180,11 +188,13 @@
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
 <script src="libs/gitbook-2.6.7/js/lunr.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
 <script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
 <script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
 <script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
 <script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
 <script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
 <script>
 gitbook.require(["gitbook"], function(gitbook) {
 gitbook.start({
@@ -196,6 +206,10 @@ gitbook.start({
 },
 "edit": null,
 "history": {
+"link": null,
+"text": null
+},
+"view": {
 "link": null,
 "text": null
 },
